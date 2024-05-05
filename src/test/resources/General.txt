@@ -1,0 +1,18 @@
+###In textNG xml file include has high priority than exclude tag
+
+-> In the below scenario login will run
+<methods>
+	<include name="login"></include>
+	<exclude name="login"></exclude>
+</methods>
+-> If you are giving wrong name in include tag it will skip not through error
+
+
+### assertEquals,assertNotEquals,assertTrue,assertFalse,assertNull,assertNotNull
+
+-> import static org.testng.Assert.assertTrue;
+
+## Annotation 
+
+-> @Test,@BeforeSuite,class,method,test,group 
+-> We can run in class itself or testNG.xml
